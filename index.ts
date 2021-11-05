@@ -15,4 +15,9 @@ async function add(...args: number) {
     return sum
 };
 
-export { random, add }
+async function random(...args: any[]) {
+    const random = args[Math.floor(Math.random() * args.length)];
+    return random
+}
+
+export { random, add, random }
