@@ -20,4 +20,4 @@ async function random(...args: any[]) {
     return random
 }
 
-export { random, add, random }
+export default { random, add, random }
