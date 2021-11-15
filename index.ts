@@ -14,10 +14,14 @@ async function add(...args: number) {
     }
     return sum
 };
-
-async function random(...args: any[]) {
+async function prin(args: any) {
+    console.log(args)
+}
+async function randomis(...args: any[]) {
     const random = args[Math.floor(Math.random() * args.length)];
     return random
 }
 
-export default { random, add, random }
+export default {
+    random, add, randomis, printt
+}
