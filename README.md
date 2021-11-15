@@ -8,4 +8,12 @@ random(...strings);
 add(...numbers);
 ```
 
+```js
+randmise(...args);
+```
+
+```js
+print(...args);
+```
+
 I know basic shit
